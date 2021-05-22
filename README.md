@@ -6,7 +6,7 @@ The data is [Echo Nest Taste Profile Subset from Million Songs Dataset](http://m
 
 Code works fine, but training is taking forever, especially considering that number of modeling items is very limited. 
 
-Tested on MBPR'13.
+Tested on MBP'13, 2020.
 
 ## How to run
 Install ML Compute accelerated TF2 package of 0.1a3 version by following this [instructions](https://github.com/apple/tensorflow_macos/issues/153)
