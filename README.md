@@ -7,7 +7,8 @@ The data is [Echo Nest Taste Profile Subset from Million Songs Dataset](http://m
 Code works fine, but training is taking forever, especially considering that number of modeling items is limited to 13692. Tested on MBPR'13.
 
 ## How to run
-Install ML Compute accelerated TF2 package of 0.1a3 version by following this [instructions](https://github.com/apple/tensorflow_macos/issues/153), and then:
+Install ML Compute accelerated TF2 package of 0.1a3 version by following this [instructions](https://github.com/apple/tensorflow_macos/issues/153)
+(installation must be done with miniforge), and then fire:
 ```bash
 conda activate YOUR_ENVIRONMENT_NAME
 conda install -c conda-forge --yes sqlalchemy==1.4.4 more-itertools=8.7.0 pandas=1.2.3 tqdm==4.59.0 && mkdir data 
