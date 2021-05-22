@@ -4,7 +4,9 @@ Attempt to train a recommender system on Apple M1, using [Apple's TF fork](https
 denoising autoencoder, as described in [Variational Autoencoders for Collaborative Filtering, Liang et al.](https://arxiv.org/abs/1802.05814)
 The data is [Echo Nest Taste Profile Subset from Million Songs Dataset](http://millionsongdataset.com/tasteprofile/).
 
-Code works fine, but training is taking forever, especially considering that number of modeling items is limited to 13692. Tested on MBPR'13.
+Code works fine, but training is taking forever, especially considering that number of modeling items is very limited. 
+
+Tested on MBPR'13.
 
 ## How to run
 Install ML Compute accelerated TF2 package of 0.1a3 version by following this [instructions](https://github.com/apple/tensorflow_macos/issues/153)
